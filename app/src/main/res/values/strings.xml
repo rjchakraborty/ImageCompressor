@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageUtilitiesDemoApp</string>
+    <string name="no_camera_exists">No application exists for camera!</string>
+    <string name="permission_request_denied">Permission request denied</string>
+</resources>
