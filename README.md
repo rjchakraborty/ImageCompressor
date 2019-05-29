@@ -27,7 +27,7 @@ dependencies {
   new ImageCompressor.Builder(activity)
                                 .setConfiguration(ImageConfiguration.MEDIA_QUALITY_LOW)
                                 .setImage(mFile.getAbsolutePath())
-                                //.setImageOutputSize(2000.0f, 1000.0f) // if declared then wil override configuration
+                                //.setImageOutputSize(2000.0f, 1000.0f) //it will override configuration params
                                 .onImageCompressed(new ImageCompressListener() {
                                     @Override
                                     public void onImageCompressed(byte[] bytes, File file) {
